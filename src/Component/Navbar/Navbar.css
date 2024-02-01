@@ -1,0 +1,62 @@
+.navbar-wrapper {
+  width: 100%;
+  height: 100%;
+  position: sticky;
+  top:0;
+  background-color:#FFF;
+  z-index: 100;
+}
+.navbar-upper-header {
+  width: 96%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 5%;
+}
+.logo-div {
+  width: 8%;
+  height: 100%;
+}
+.navebar-name-wrapper {
+  height: 100%;
+  width: 62%;
+
+  display: flex;
+}
+.navbar-button-div {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: end;
+  padding: 0.5rem;
+}
+.nav-router-names {
+  height: 100%;
+  width: 18%;
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  
+}
+.get-quote{
+    height: 80%;
+    width: 50%;
+    /* background: black; */
+    /* border-radius: 0.9rem; */
+}
+.button-last-nav{
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 1.5rem;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,85 @@
+.our-service-wrapper {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.our-service-wrapper-background-div-1 {
+  width: 33.3%;
+
+  position: relative;
+}
+.our-service-wrapper-background-div-2 {
+  width: 33.3%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.our-service-wrapper-background-div-3 {
+  width: 33.3%;
+
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.rotate {
+  transform: rotate(180deg);
+  width: 70%;
+}
+.elipse {
+  width: 70%;
+}
+.header-Our-Services {
+    font-size: 2.9rem;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 5rem;
+    letter-spacing: 0em;
+    position: absolute;
+    top: -10%;
+    width: fit-content;
+    border-bottom: 1rem solid #F0B726;
+    height: 15%;
+  
+}
+.header-Our-Services:hover{
+    border-bottom: 1rem solid #F0B726;
+    box-shadow: 0px 4px 0px 0px #00000040;
+    border-radius: 1rem;
+}
+.cards-our-service-div{
+    position: absolute;
+    width: 100%;
+    top:30%;
+   
+    display: flex;
+    gap:2%;
+    padding: 1.5rem;
+}
+.cards-our-service {
+    width: 32%;
+    /* border: 1px solid black; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* padding: 1rem; */
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 4px 2px #3A79FF;
+
+    border-radius: 0.9rem;
+    border-top:2px solid #FFF
+}
+.cards-our-service:hover{
+    border-left:10px solid  #16A3FF;
+    border-right: 10px solid #16A3FF;
+    border-bottom: 10px solid #16A3FF;
+
+}
+.card-img{
+    position: absolute;
+    width: 90px;
+    top: -2.8rem;
+    /* left: 38%; */
+    /* box-shadow: 0px 4px 4px 0px #00000040; */
+   
+}

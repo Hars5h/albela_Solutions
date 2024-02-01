@@ -1,0 +1,45 @@
+.home-wrapper{
+    width: 100%;
+    background-color:#FFF;
+    padding: 1.5rem;
+    display: flex;
+    gap:2%;
+}
+.left-home-div{
+    width: 45%; 
+}
+.rigth-home-div{
+    width: 55%; 
+    text-align: right; 
+}
+.header-div1{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-top: 10%;
+    line-height: 2.5cm;
+}
+.header-div{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 2.5cm;
+}
+.p-tag-front{
+    font-size: 1.2rem;
+    padding-top: 5%;
+    width:70%
+}
+.home-contact-button-div{
+    padding-top: 5%;
+    width:20%; 
+}
+.home-contact-button{
+    width:100%;
+    height: 3.2rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    background: black;
+    border: none;
+    outline: none;
+    color:#FFF;
+    font-size: 1.2rem;
+}
