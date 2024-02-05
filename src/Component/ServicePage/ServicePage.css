@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   position: relative;
+  height: 105vh;
 }
 .our-service-wrapper-background-div-1 {
   width: 33.3%;
@@ -16,9 +17,6 @@
 }
 .our-service-wrapper-background-div-3 {
   width: 33.3%;
-
-  display: flex;
-  justify-content: end;
   position: relative;
 }
 .rotate {
@@ -37,8 +35,8 @@
     position: absolute;
     top: -10%;
     width: fit-content;
-    border-bottom: 1rem solid #F0B726;
-    height: 15%;
+    /* border-bottom: 1rem solid #F0B726; */
+    height: 8%;
   
 }
 .header-Our-Services:hover{
@@ -49,7 +47,7 @@
 .cards-our-service-div{
     position: absolute;
     width: 100%;
-    top:30%;
+    top:15%;
    
     display: flex;
     gap:2%;
@@ -61,6 +59,7 @@
     display: flex;
     position: relative;
     justify-content: center;
+    background:#FFF;
     /* padding: 1rem; */
     flex-direction: column;
     align-items: center;
